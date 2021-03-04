@@ -83,12 +83,12 @@ h2 {
 
 .logo2 {
   margin-top: 49%;
-  margin-left: 2%;
+  margin-left: 6%;
   display: flex;
 }
 
 .logo2 > img {
-  width: 15%;
+  width: 13%;
 }
 
 .btn-cont {
@@ -101,4 +101,38 @@ h2 {
   padding: 0.6rem 1rem;
   color: #7f7f7f;
   font-size: 1.3rem;
+}
+
+/* PAGE 3 */
+/* 
+.page3 {
+  width: 1500px;
+  height: 1125px;
+}
+
+.title3-container {
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+}
+
+.cam {
+  font-size: 4rem;
+}
+
+.check {
+  font-size: 3.3rem;
+  color: #7f7f7f;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.04rem;
+} */
+
+/* PAGE 4 */
+
+.page4 {
+  width: 1500px;
+  height: 1125px;
+  background: no-repeat url("../assets/img/p4.png");
+  background-size: cover;
+  color: white;
 }
