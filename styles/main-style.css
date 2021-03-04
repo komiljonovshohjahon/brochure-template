@@ -11,6 +11,7 @@ h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* PAGE 1 */
 .page1 {
   width: 1500px;
   height: 1125px;
@@ -19,7 +20,7 @@ h2 {
   color: white;
 }
 
-.container {
+.page1-container {
   padding-top: 9rem;
   padding-left: 4.5rem;
 }
@@ -45,8 +46,59 @@ h2 {
   font-size: 2rem;
   font-weight: 0.5rem;
   text-shadow: var(--shad);
+  padding-left: 0.1rem;
 }
 
-.logo {
-  padding-left: 2%;
+.logo > img {
+  width: 16%;
+}
+
+/* PAGE 2 */
+
+.page2 {
+  width: 1500px;
+  height: 1125px;
+  background: no-repeat url("../assets/img/p2.png");
+  background-size: cover;
+  color: white;
+}
+
+.title2-container {
+  padding-top: 7rem;
+  padding-left: 4.5rem;
+}
+
+.thermal {
+  font-size: 6.4rem;
+  text-shadow: var(--shad);
+}
+
+.temp {
+  font-size: 4.5rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-shadow: var(--shad);
+  line-height: 3rem;
+}
+
+.logo2 {
+  margin-top: 49%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.logo2 > img {
+  width: 15%;
+}
+
+.btn-cont {
+  margin-left: 33%;
+}
+
+.btn-cont > .btn {
+  border: none;
+  background-color: white;
+  padding: 0.6rem 1rem;
+  color: #7f7f7f;
+  font-size: 1.3rem;
 }
