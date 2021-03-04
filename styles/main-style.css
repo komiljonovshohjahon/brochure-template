@@ -1,0 +1,52 @@
+:root {
+  --shad: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+body,
+h1,
+h2 {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page1 {
+  width: 1500px;
+  height: 1125px;
+  background: no-repeat url("../assets/img/p1.png");
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  padding-top: 9rem;
+  padding-left: 4.5rem;
+}
+
+.covid {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: var(--shad);
+}
+
+.title {
+  margin-top: 1rem;
+  line-height: 4rem;
+  font-size: 4rem;
+  text-shadow: var(--shad);
+  letter-spacing: 1px;
+}
+
+.list {
+  padding-left: 0%;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 0.5rem;
+  text-shadow: var(--shad);
+}
+
+.logo {
+  padding-left: 2%;
+}
