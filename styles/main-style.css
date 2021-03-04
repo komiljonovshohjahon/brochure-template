@@ -2,7 +2,8 @@
   --shad: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
 
-  --grad: linear-gradient(#00000081, #00000042, transparent);
+  --grad: linear-gradient(to bottom, #0000009a, #0000005e, transparent);
+  --grad-bottom: linear-gradient(to top, #00000075, #00000041, transparent);
 }
 
 body,
@@ -14,7 +15,8 @@ h2 {
 }
 
 /* PAGE 1 */
-/* .page1 {
+
+.page1 {
   width: 1500px;
   height: 1125px;
   background: no-repeat url("../assets/img/p1.png");
@@ -53,14 +55,14 @@ h2 {
 
 .logo > img {
   width: 16%;
-} */
+}
 
 /* PAGE 2 */
 
-/* .page2 {
+.page2 {
   width: 1500px;
   height: 1125px;
-  background: no-repeat url("../assets/img/p2.png");
+  background: no-repeat, url("../assets/img/p2.png");
   background-size: cover;
   color: white;
 }
@@ -103,24 +105,97 @@ h2 {
   padding: 0.6rem 1rem;
   color: #7f7f7f;
   font-size: 1.3rem;
-} */
+}
+
+/* PAGE 3 */
+
+.page3 {
+  width: 1500px;
+  height: 1125px;
+}
+
+.title3-container {
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+}
+
+.dome {
+  font-size: 5rem;
+}
+
+.type {
+  font-size: 4rem;
+  color: #7f7f7f;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.04rem;
+}
+
+.tab {
+  margin-left: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.tab p {
+  font-size: 2rem;
+}
+
+tbody th {
+  color: grey;
+  font-weight: 400;
+}
+table tr {
+  text-align: left;
+  font-size: 2rem;
+}
+
+table td {
+  font-weight: 500;
+}
+
+table tr th,
+td {
+  padding-right: 5rem;
+}
+
+.logo-temp {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  margin-right: 4rem;
+}
+
+.btn-cont-p3 {
+  margin-right: 23rem;
+  /* font-size: 3rem; */
+}
+
+.btn-cont-p3 > .btn-p3 {
+  border: none;
+  background-color: white;
+  padding: 0.6rem 1rem;
+  color: #7f7f7f;
+  font-size: 1.5rem;
+}
 
 /* PAGE 4 */
 
-/* .page4 {
+.page4 {
   width: 1500px;
   height: 1125px;
   background: no-repeat url("../assets/img/p4.png");
   background-size: cover;
   color: white;
-} */
+}
 
 /* CLOSING SECTION */
 
-/* .closing {
+.closing {
   width: 1500px;
   height: 1125px;
   background: no-repeat, var(--grad), url("../assets/img/p44.jpg");
+  /* background: var(--grad-bottom); */
   background-size: cover;
   color: white;
 }
@@ -145,6 +220,7 @@ h2 {
   font-size: 1.1rem;
   width: 80%;
   margin: 0;
+  line-height: 1.5rem;
 }
 
 .logo-box {
@@ -196,10 +272,12 @@ h2 {
   font-weight: 200;
   text-shadow: var(--shad);
   padding-left: 0.1rem;
-} */
+  font-weight: 400;
+}
 
 /* PAGE 3 */
 
+/*
 .page3 {
   width: 1500px;
   height: 1125px;
@@ -211,22 +289,16 @@ h2 {
 }
 
 .cam {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .check {
-  font-size: 3.3rem;
+  font-size: 4.5rem;
   color: #7f7f7f;
   font-weight: 400;
   line-height: 3rem;
   letter-spacing: 0.04rem;
 }
-/* 
-.tab {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .img-row > img {
   margin: 3rem 5rem;
@@ -235,9 +307,6 @@ h2 {
 }
 
 .title-row {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
   columns: 3;
 }
 .img-row {
@@ -257,9 +326,7 @@ h2 {
 .title-row > h1:nth-of-type(1) {
   text-align: right;
 }
-.title-row > h1:nth-of-type(2) {
-  /* padding-left: 5rem; */
-}
+
 .title-row > h1:nth-of-type(3) {
   padding-left: 4rem;
 }
@@ -267,7 +334,6 @@ h2 {
 .detail-row {
   display: flex;
   flex-direction: row;
-  /* margin-right: 30rem; */
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 0.7rem;
@@ -286,4 +352,70 @@ h2 {
 
 .fade-text {
   color: #7f7f7f;
+} */
+
+/* PAGE 7 */
+
+.page7 {
+  width: 1500px;
+  height: 1125px;
+}
+
+.title7-container {
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+}
+
+.dome {
+  font-size: 5rem;
+}
+
+.type {
+  font-size: 4.5rem;
+  color: #7f7f7f;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.04rem;
+}
+
+.row-id {
+  margin-top: 8rem;
+  margin-left: 5rem;
+  display: flex;
+}
+
+.table-single {
+  margin-top: 8rem;
+  margin-left: 8.55rem;
+  width: 100%;
+}
+
+.table-single th {
+  text-align: left;
+}
+
+.table-single td {
+  /* padding-right: 2rem; */
+  font-size: 2rem;
+}
+
+.table-single tr > .table-single {
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.cam-name {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.cam-img {
+  width: 50%;
+}
+tr > td:nth-child(2) {
+  font-weight: 500;
+}
+tr > td:nth-child(1) {
+  padding-right: 8rem;
+  color: grey;
 }

@@ -1,0 +1,63 @@
+body,
+h1,
+h2 {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page3 {
+  width: 1500px;
+  height: 1125px;
+}
+
+.title3-container {
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+}
+
+.dome {
+  font-size: 5rem;
+}
+
+.type {
+  font-size: 4rem;
+  color: #7f7f7f;
+  font-weight: 400;
+  line-height: 4rem;
+  letter-spacing: 0.04rem;
+}
+
+.tab {
+  margin-left: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.tab p {
+  font-size: 2rem;
+}
+
+tbody th {
+  color: grey;
+  font-weight: 400;
+}
+table tr {
+  text-align: left;
+  font-size: 2rem;
+}
+
+table td {
+  font-weight: 500;
+}
+
+table tr th,
+td {
+  padding-right: 5rem;
+}
+
+.logo-temp {
+  margin-top: 25rem;
+  margin-left: 80rem;
+  display: flex;
+}
